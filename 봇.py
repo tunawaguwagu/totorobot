@@ -7,10 +7,11 @@ import glob
 import random
 import time
 import datetime
+import os
 
 app = commands.Bot(command_prefix='#')
-
-token = "Njg2NjM2MDAxNzI4NTI4NDg2.XmaxdQ.Sp4dWJcmjROOctYjg12z-Xn1f-s"
+access_token = os.environ["BOT_TOKEN"]
+token = "Njg2NjM2MDAxNzI4NTI4NDg2.Xmue0A.ke6Iz1kyn4FWSlxNM3OBRPW2uTc"
 calcResult = 0
 
 # normal functions
