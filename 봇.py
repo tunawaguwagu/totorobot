@@ -11,7 +11,7 @@ import os
 
 app = commands.Bot(command_prefix='#')
 access_token = os.environ["BOT_TOKEN"]
-token = "Njg2NjM2MDAxNzI4NTI4NDg2.Xmue0A.ke6Iz1kyn4FWSlxNM3OBRPW2uTc"
+token = access_token
 calcResult = 0
 
 # normal functions
